@@ -1,0 +1,13 @@
+{
+  "name": "eonor",
+  "version": "0.0.1",
+  "directories": {
+    "test": "."
+  },
+  "author": "sifbuilder",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sifbuilder/eonor.git"
+  }
+}

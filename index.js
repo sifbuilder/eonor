@@ -1,1 +1,1 @@
-module.exports = require("eonore")
+module.exports = require("./eon-x-eonify")

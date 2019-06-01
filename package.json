@@ -8,7 +8,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https+git@github.com:sifbuilder/eonor.git"
+    "url": "git@github.com:undefined/undefined.git"
   },
   "description": "eons core",
   "main": "./index.js",

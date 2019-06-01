@@ -1,1 +1,1 @@
-eonor by sifbuilder
+eons core

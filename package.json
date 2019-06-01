@@ -1,6 +1,6 @@
 {
   "name": "eonor",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "directories": {
     "test": "."
   },
@@ -8,6 +8,84 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:sifbuilder/eonor.git"
+    "url": "https+git@github.com:sifbuilder/eonor.git"
+  },
+  "description": "eons core",
+  "main": "./index.js",
+  "unpkg": "./index.js",
+  "scripts": {
+    "lint": "eslint . --config=eslintrc.json",
+    "test": "npm run jest ./*.test.js"
+  },
+  "keywords": [
+    "eons",
+    "gatsby",
+    "netlify"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "_files": [
+    {
+      "resolve": "LICENSE",
+      "properties": {
+        "content": "The MIT License (MIT)\n\nCopyright (c) 2019 sifbuilder\n\nhttps://opensource.org/licenses/MIT\n"
+      }
+    },
+    {
+      "resolve": "README.md",
+      "properties": {
+        "content": "eons core"
+      }
+    },
+    {
+      "resolve": "index.js",
+      "properties": {
+        "content": "module.exports = require(\"./eon-x-eonify\")"
+      }
+    },
+    {
+      "resolve": "eon-muon-eoric.js",
+      "properties": {
+        "path": "eon-muon-eoric.js"
+      }
+    },
+    {
+      "resolve": "eon-muon-eotim.js",
+      "properties": {
+        "path": "eon-muon-eotim.js"
+      }
+    },
+    {
+      "resolve": "eon-muon-store.js",
+      "properties": {
+        "path": "eon-muon-store.js"
+      }
+    },
+    {
+      "resolve": "eon-x-eonify.js",
+      "properties": {
+        "path": "eon-x-eonify.js"
+      }
+    },
+    {
+      "resolve": "test/eon-muon-store.test.js",
+      "properties": {
+        "path": "test/eon-muon-store.test.js"
+      }
+    }
+  ],
+  "devDependencies": {
+    "eolint": "*",
+    "eslint": ">=5.0.0",
+    "eslint-plugin-import": ">=2.13.0",
+    "eslint-plugin-node": ">=7.0.0",
+    "eslint-plugin-promise": ">=4.0.0",
+    "eslint-plugin-standard": ">=4.0.0",
+    "jest": "*"
+  },
+  "dependencies": {
+    "node-fetch-polyfill": "^2.0.6",
+    "url-polyfill": "^1.1.5"
   }
 }

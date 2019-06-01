@@ -136,8 +136,8 @@
       let unElapsedInPeriod = (unPeriod > epsilon) ? ((unElapsed % (1 / unPeriod)) * unPeriod) : unElapsed // _e_
 
       if ((unInit <= unElapsed) &&
-            (unElapsed <= unEnd) &&
-            (unSlot.indexOf(unElapsedstep) !== null)) {
+              (unElapsed <= unEnd) &&
+              (unSlot.indexOf(unElapsedstep) !== null)) {
         unSlot.push(unElapsedstep)
         unPassed = unPassedInPeriod // TimePassedInPeriod (uns)
         unElapsed = unElapsedInPeriod // TimeElapsedInPeriod (uns)
